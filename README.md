@@ -44,3 +44,7 @@ Swift, Swift UI, Firebase, Xcode, Authentication, Database, CryptoKit, Concurren
 ## Technical Walkthrough
 
 As mentioned earlier, Firebase is very versatile, making it easy to work across device platforms. I mainly wanted to explore User Authentication, specifically connecting multiple Sign-In methods in a single app. I started off by connecting my Xcode project with my Firebase console, which was a lot easier than I expected. However, the functionalities were tough to code. I assumed some of the Sign-In methods would be relatively simple, such as the Sign-In With Apple, since Xcode typically works well with Apple frameworks. I quickly realized that was not the case, and I basically had to hard code everything from Sign-In functions to getting the login provider, getting the tokens, and helper functions to control the authentication. This meant I had to learn a lot for this project, especially concurrency, using "async throws", extensions, and various authentication objects such as "ASAuthorizationControllerDelegate". 
+
+## Next Steps
+
+While I am pleased to learn Firebase and connect it with an app to utilize User Authentication, I plan to continue working on FireLite to work with different Sign-In methods as well as storing data under user accounts, such as game levels and currency. 
